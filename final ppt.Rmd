@@ -1,0 +1,38 @@
+---
+title: "Final Presentation- Word Prediction"
+author: "Irshad"
+date: "5/4/2020"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+## Summary for overall algorithm
+
+- optimized efficiency of load text files in English language by “fread” function
+- custom & efficient text data cleaning
+applied 7-10 (among 14 analyzed) text data cleaning operations in proper sequence
+using faster kinds of functions and parallelism via clusters
+- text data exploration to better understand text dataset and to optimal improve activities
+
+## Summary for overall algorithm (contd)
+
+- next word prediction using efficient, modified “predict_backoff” function
+- optimization memory in places with higher memory usage
+
+## Features and Manuals
+
+- Application predicts single word based on n-gram model for “News articles” or “Twitter” text data files
+- Application contains 4-gram model for each among two text data file
+- Application has progress bar to show loading of required n-grams
+- application presents cleaned input text phrase and predicted word directly after press “Clean & Predict” button
+
+## View the application
+
+- Application is available on https://agmgaffar.shinyapps.io/Final/
+
+Thank you for your time
